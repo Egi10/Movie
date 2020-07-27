@@ -1,0 +1,11 @@
+apply from: "$rootDir/common.gradle"
+
+dependencies {
+    // Module Network
+    implementation project(":network")
+
+    // Retrofit
+    implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+    implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
+
+}
